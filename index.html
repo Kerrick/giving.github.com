@@ -1,8 +1,93 @@
 <html>
 <head>
 <title>giving.github.com</title>
+<style type="text/css">
+	body { font-family: sans-serif; }
+	.rounded {
+		display: inline-block;
+		outline: none;
+		text-align: center;
+		text-decoration: none;
+		font: 14px/100%;
+		padding: .5em 2em .55em;
+		text-shadow: 0 1px 1px rgba(0,0,0,.3);
+		-webkit-border-radius: .5em; 
+		-moz-border-radius: .5em;
+		border-radius: .5em;
+		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+		-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+		box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	}
+	.clickable:hover {
+		cursor: pointer;
+		text-decoration: none;
+	}
+	.clickable:active {
+		position: relative;
+		top: 1px;
+	}
+	.rosy {
+		color: #fae7e9;
+		border: solid 1px #b73948;
+		background: #da5867;
+		background: -webkit-gradient(linear, left top, left bottom, from(#f16c7c), to(#bf404f));
+		background: -moz-linear-gradient(top,  #f16c7c,  #bf404f);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f');
+	}
+	.green {
+		color: #e8f0de;
+		border: solid 1px #538312;
+		background: #64991e;
+		background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+		background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+	}
+	.blue {
+		color: #d9eef7;
+		border: solid 1px #0076a3;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+	}
+	.blue.clickable:hover {
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+	}
+	.blue.clickable:active {
+		color: #80bed6;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+		background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+	}
+</style>
 </head>
 <body>
-<h1>giving.github.com</h1>
+<table cellpadding="20px" cellspacing="20px">
+	<tr>
+		<td colspan="2">
+			<h1>giving.github.com</h1>
+			<p>&rarr; are you a charity or scientist in need of programming help?<br/>
+			&rarr; are you a programmer who wants to spend just five minutes helping make the world a better place?</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="rounded rosy">
+			<h2>I'm a scientist or charity:</h2>
+			<h3>How do I ask for help?</h3>
+		</td>
+		<td class="rounded green">
+			<h2>I'm a programmer:</h2>
+			<h3>Show me how to help!</h3>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<a class="rounded clickable blue" href="https://github.com/giving/giving.github.com/issues">&nbsp;to&nbsp;the&nbsp;issues&nbsp;&rarr;&nbsp;</a>
+		</td>
+	</tr>
+</table>
 </body>
 </html>
