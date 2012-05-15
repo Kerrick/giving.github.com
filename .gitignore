@@ -1,2 +1,6 @@
 .*
 *~
+.sass-cache
+*.sublime-project
+*.sublime-workspace
+*.psd

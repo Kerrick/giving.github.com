@@ -1,141 +1,96 @@
+<!doctype html>
 <html>
-<head>
-<title>giving.code</title>
-<script type="text/javascript">
+  <head>
+    <meta charset="utf-8">
+    <title>Giving.Code::Description("Doing good with programming and design")</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Giving Code is a new way to give back by doing what you do best: programming.">
+    <meta name="author" content="https://github.com/giving/giving.github.com/graphs/contributors">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29857123-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<style type="text/css">
-	body { font-family: sans-serif; }
-	a { color: inherit; }
-	a:visited { color: inherit; }
-	.rounded {
-		outline: none;
-		text-align: center;
-		text-decoration: none;
-		font: 14px/100%;
-		padding: .5em 2em .55em;
-		text-shadow: 0 1px 1px rgba(0,0,0,.3);
-		-webkit-border-radius: .5em; 
-		-moz-border-radius: .5em;
-		border-radius: .5em;
-		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-		-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-		box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	}
-	.clickable:hover {
-		cursor: pointer;
-		text-decoration: none;
-	}
-	.clickable:active {
-		position: relative;
-		top: 1px;
-	}
-	.orange {
-		text-shadow: 0 3px 3px rgba(0,0,0,.3);
-		color: #fae7e9;
-		border: solid 1px #FF9900;
-		background: #FF9966;
-		background: -webkit-gradient(linear, left top, left bottom, from(#FF9966), to(#FF9900));
-		background: -moz-linear-gradient(top,  #FF9966,  #FF9900);
-		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9966', endColorstr='#FF9900');
-	}
-	.green {
-		color: #e8f0de;
-		border: solid 1px #538312;
-		background: #64991e;
-		background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
-		background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
-		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
-	}
-	.blue {
-		border: solid 1px #0076a3;
-		background: #0095cd;
-		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
-		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
-		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
-	}
-	.blue.clickable:hover {
-		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
-		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
-		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
-	}
-	.blue.clickable:active {
-		background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
-		background: -moz-linear-gradient(top,  #0078a5,  #00adee);
-		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
-	}
-	.five {
-		text-align: left;
-	}
-	.five:first-letter {
-		font-size: 3em;
-		float: left;
-	}
-</style>
-</head>
-<body>
-<h1>giving.code <span style="color: lightgray;">where programmers help</span></h1>
-<p>&rarr; are you a charity, scientist or engineer in need of programming help?<br/>
-&rarr; are you a programmer who wants to spend just five minutes helping make the world a better place?</p>
-<table width="100%" cellspacing="30px">
-	<tr>
-		<td class="orange rounded" width="50%" valign="top">
-			<h2>I'm a scientist, engineer or charity&nbsp;&darr;</h2>
-			<h3>How do I ask for help?</h3>
-			<p><ol style="text-align: left">
-				<li>formulate your project so that the problem you are asking for help with can be described clearly and completely in a paragraph or two</li>
-				<li>re-read your project brief; is it really unambiguous what you want help with?</li>
-				<li>all data must be yours to share, and help received is <a href="http://en.wikipedia.org/wiki/MIT_License">MIT licensed</a></li>
-				<li>unless you explicitly state that you want or accept <a href="http://www.gnu.org/licenses/agpl.html">Affero GPL licensed</a> code</li>
-				<li>submit your brief as an 'issue' using the big blue button below&nbsp;&darr;</li>
-				<li>you'll be prompted to create a <a href="//www.github.com">github</a> account if you don't already have one</li>
-				<li>if you have data to crunch, can you attach a simple small test-set to the issue?</li>
-				<li>worried that your problem is open-ended, badly defined or too big?  Perhaps the first project you post is asking for help in splitting it into smaller tasks</li>
-			</ol></p>
-		</td>
-		<td class="green rounded" width="50%" valign="top">
-			<h2>I'm a programmer&nbsp;&darr;</h2>
-			<p class="five"><b>5 minutes</b> or an hour or an evening of your time is all you need spare to achieve something meaningful!
-				You don't need dedication and commitment, only <i>commit</i> or code-review</p>
-			<h3>Show me how to help!</h3>
-			<p><ol style="text-align: left">
-				<li>you need a <a href="//www.github.com">github</a> account and to be familiar with git/github</li>
-				<li>browse the open issues (big blue button below&nbsp;&darr;)</li>
-				<li>all code given is marked clearly and properly as <a href="http://en.wikipedia.org/wiki/MIT_License">MIT licensed</a>/<a href="http://www.gnu.org/licenses/agpl.html">Affero GPL licensed</a> please</li>
-			</ol><ul style="text-align: left">
-				<li>you may be able to contribute a solution or part of a solution or such; create a github public repo and code away; link to it in an issue comment</li>
-				<li>you may fork someone else's solution to make changes; send them a pull-request and comment in the issue</li>
-				<li>you may be able to take five minutes to look over some code someone has submitted; spot a bug?  comment on the issue</li>
-				<li>you may have insights to share; comment on the issue!</li>
-			</ul></p>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="2">
-			<p><a class="blue rounded clickable" href="https://github.com/giving/giving.github.com/issues" style="color:white;"><big><strong>
-				&nbsp;to&nbsp;the&nbsp;issues&nbsp;&rarr;&nbsp;
-			</strong></big></a></p>
-		</td>
-	</tr>
-</table>
-<p><div style="color: darkgray">
-	<h3>about:</h3>
-	<p>The giving.code project was inspired by an <a href="http://en.wikipedia.org/wiki/Epiphany_%28feeling%29">epiphany</a> that
-	there is more to life than work.  Coders too can actively make the world a better place!</p>
-	<p><a href="http://williamedwardscoder.tumblr.com/post/18917120117/do-something-meaningful-coding-for-the-world">blog post that started it all</a>.</p>
-	<h3>other places and ways you can give code:</h3>
-	<p>include <a href="http://www.rhok.org" target="_blank">random hacks of kindness</a>, <a href="http://givecamp.org/" target="_blank">givecamp</a> and <a href="http://www.codeforamerica.org" target="_blank">code for america</a></p>
-</div></p>
-<p><small>This project is using the excellent, free github project hosting.  It is not affiliated nor endorsed by the company github in any way</small></p>
-</body>
+    <link href="stylesheets/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/">Giving.Code</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="give-code.html">Give Code</a></li>
+              <li><a href="get-help.html">Get Help</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="https://github.com/giving/giving.github.com/issues">View Projects</a></li>
+              <li><a href="https://github.com/giving/giving.github.com/issues/new">Create a New Project</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="hero-unit">
+        <img class="hello" src="images/hello.gif" width="371" height="144" alt="Hello world, how can I help?" title="No, you don't have to use (or know) C++ to help.">
+        <h1 class="brand">Giving.Code</h1>
+        <p>Programmers, designers, and sysadmins doing <em>real good</em> for humanity and the world in their spare time</p>
+      </div>
+      <div class="audiences row">
+        <div class="audience span6">
+          <h2>I&rsquo;m a scientist, engineer, or charity</h2>
+          <img class="photo" src="images/scientists.png" width="460" height="279" alt="Photo of scientists">
+          <p>I&rsquo;m doing good for the world, but I need the help of a talented geek or designer to get my work done efficiently so I can make the world a better place.</p>
+          <a class="btn btn-large btn-primary" href="get-help.html"><i class="icon-gift icon-white"></i> Learn how to get help with your projects &raquo;</a>
+        </div>
+        <div class="audience span6">
+          <h2>I&rsquo;m a programmer or designer</h2>
+          <img class="photo" src="images/programmer.png" width="460" height="279" alt="Photo of programmer">
+          <p>I&rsquo;m a programmer, developer, sysadmin, or user interface designer with some free time  and a penchant for helping the world become a better place.</p>
+          <a class="btn btn-large btn-primary" href="give-code.html"><i class="icon-tasks icon-white"></i>Learn how to give your time and skills &raquo;</a>
+        </div>
+      </div>
+      <h2>Projects similar to <b class="brand">Giving.Code</b></h2>
+      <div class="other-sites row">
+        <div class="site span4">
+          <h3>Random Hacks of Kindness</h3>
+          <p>Random Hacks of Kindness is a global community of innovators building practical open technology to make the world a better place.</p>
+          <a class="btn btn-info" href="http://www.rhok.org/">Learn More &raquo;</a>
+        </div>
+        <div class="site span4">
+          <h3>Code for America</h3>
+          <p>CfA is committed to reimagining government for the 21st century by helping governments work better for everyone with the power of the web.</p>
+          <a class="btn btn-info" href="http://codeforamerica.org/">Learn More &raquo;</a>
+        </div>
+        <div class="site span4">
+          <h3>GiveCamp</h3>
+          <p>GiveCamp is a weekend-long event where technology professionals donate their time to provide solutions for non-profit organizations.</p>
+          <a class="btn btn-info" href="http://givecamp.org/">Learn More &raquo;</a>
+        </div>
+      </div>
+      <h2>About <b class="brand">Giving.Code</b></h2>
+      <p>This project is using the free and excellent service known as <a href="https://github.com/about">GitHub</a> for hosting and issues. It is neither affiliated nor endorsed by Github Inc.</p>
+      <h3>It all began with one question:</h3>
+      <blockquote cite="http://williamedwardscoder.tumblr.com/post/18917120117/do-something-meaningful-coding-for-the-world">
+        <p>Could the hobby time of programmers be diverted to help those doing the serious work?</p>
+        <footer>
+          &mdash;
+          <a href="http://williamedwardscoder.tumblr.com/post/18917120117/do-something-meaningful-coding-for-the-world">
+            William Edwards, <cite>Do Something Meaningful - Coding for the World</cite>
+          </a>
+        </footer>
+      </blockquote>
+      <p>Always remember: <strong>There is more to life than work</strong>.</p>
+      <footer class="main">
+        <p>&copy; 2012 Giving.Code, <a href="https://github.com/giving/giving.github.com/blob/master/LICENSE.md">most rights given</a>. Help <a href="https://github.com/giving/giving.github.com/blob/master/index.html">improve this website</a>. Powered by <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
+      </footer>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/jquery-1.7.2.min.js"><\/script>')</script>
+    <script src="javascripts/plugins.js"></script>
+    <script src="javascripts/main.js"></script>
+  </body>
 </html>
